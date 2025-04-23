@@ -2,6 +2,12 @@
 
 This script automates the creation and rendering of video compositions in Adobe After Effects based on data from JSON files.
 
+## Fast Start
+- ** Main_Template.aep**: open in Adobe After Effects 2025
+- ** AE** > File > Scripts > Run Script File > Choose KSV_JSON_AE_2025/Scripts/populateMainTemplateUIPanel.jsx
+- ** UI Panel**: shows in AE, browse to this project's JSON folder
+- ** JSON Files**: Generate One New Comp:oneitem.json Generate 5 New Compositions: KSVTest1.json
+
 ## Overview
 
 The script reads data from a JSON file containing info about each composition to be generated. It imports necessary assets (images and audio), generates video compositions, adds animations and text layers, and renders each new composition into an lossless file using Adobe Media Encoder.
