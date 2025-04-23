@@ -73,6 +73,8 @@ The script reads data from a JSON file containing info about each composition to
 
 ### Future Additions:
 - **Integration with Adobe Firefly API**: Planned future enhancement to dynamically populate compositions using Adobe Firefly API for interactive elements.
+- **Transparent Main Image Backgrounds**: will look nicer with more advanced movement animations.
+- **More Advanced Movement Animations**: polished abstract movement animations that compliment visual cues and brief logo or mascat reveal.
 
 ### Rendering with Adobe Media Encoder (AME) Notes
 The script uses Adobe Media Encoder (AME) indirectly through Adobe After Effects for rendering. How it functions:
