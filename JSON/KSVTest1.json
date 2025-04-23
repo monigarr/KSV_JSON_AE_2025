@@ -1,0 +1,27 @@
+[
+    {
+      "word": "CAT",
+      "image": "Assets/Images/cat.jpeg",
+      "audio": "Assets/Audio/cat.mp3"
+    },
+    {
+      "word": "DOG",
+      "image": "Assets/Images/dog.jpeg",
+      "audio": "Assets/Audio/dog.mp3"
+    },
+    {
+      "word": "BEE",
+      "image": "Assets/Images/bee.jpeg",
+      "audio": "Assets/Audio/bee.mp3"
+    },
+    {
+      "word": "FOX",
+      "image": "Assets/Images/fox.jpeg",
+      "audio": "Assets/Audio/fox.mp3"
+    },
+    {
+      "word": "ANT",
+      "image": "Assets/Images/ant.jpeg",
+      "audio": "Assets/Audio/ant.mp3"
+    }
+  ]
