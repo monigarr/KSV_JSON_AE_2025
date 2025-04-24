@@ -3,7 +3,7 @@
 This script automates the creation and rendering of video compositions in Adobe After Effects based on data from JSON files.
 
 ## Fast Start
-- Main_Template.aep: open in Adobe After Effects 2025
+- Main_Template.aet: open in Adobe After Effects 2025
 - AE > File > Scripts > Run Script File > Choose KSV_JSON_AE_2025/Scripts/populateMainTemplateUIPanel.jsx
 - UI Panel: shows in AE, browse to this project's JSON folder
 - JSON Files: Generate One New Comp:oneitem.json Generate 5 New Compositions: KSVTest1.json
@@ -51,7 +51,7 @@ The script reads data from a JSON file containing info about each composition to
    ```
 
 3. **Adobe After Effects Project Setup**:
-   - Open `Main_Template.aep` file in Adobe After Effects.
+   - Open `Main_Template.aet` file in Adobe After Effects.
    - Navigate to `AE > File > Scripts > Run Script File`, then choose `populateTemplate.jsx` from this project's Scripts Folder.
    - Select `oneitem.json` for a quick test to generate and render one comp or `KSVTest1.json` to generate and render five compositions.
    - The script will notify completion with a sound once all compositions are generated and queued for rendering.
@@ -60,7 +60,7 @@ The script reads data from a JSON file containing info about each composition to
 ### Assignment Requirements:
 
 1. **After Effects Template**
-   - **Top-Level Composition**: Utilizes `Main_Template.aep` for comprehensive video creation and rendering.
+   - **Top-Level Composition**: Utilizes `Main_Template.aet` for comprehensive video creation and rendering.
    - **Pre-Comps**: Organizes layers within each composition for modularity.
    - **ExtendScript Manipulation**: Implements ExtendScript (`populateTemplate.jsx`) to automate text, animations, and media layer handling.
    - **Placeholder Images**: Integrates images specified in JSON to visually represent each word.
